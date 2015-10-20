@@ -26,7 +26,7 @@
 	<div id="content"></div>
 	<button name="show" onclick="javascript: showContent()">ShowContent</button>
 
-	<table id="example">
+	<table id="example" cellpadding="3" cellspacing="1" style="width:500px">
 		<tr>
 			<th>ID</th>
 			<th>Name</th>
