@@ -33,5 +33,14 @@
 		<url-pattern>file</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>Remote</servlet-name>
+		<servlet-class>com.safziy.service.servlet.RemoteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Remote</servlet-name>
+		<url-pattern>remote</url-pattern>
+	</servlet-mapping>
+
 </web-app>
 

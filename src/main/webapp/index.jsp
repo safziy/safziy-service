@@ -7,6 +7,8 @@
 <title>Hello World</title>
 </head>
 <body>
-	Hello World!
+	<h3>Hello World!</h3>
+	<a href="uploadfile.jsp">解析上传Excel</a><br>
+	<a href="remote.jsp">远程执行java class文件</a><br>
 </body>
 </html>
