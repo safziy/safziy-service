@@ -1,5 +1,7 @@
 package com.safziy.service.listener;
 
+import java.io.File;
+
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
@@ -9,6 +11,8 @@ import com.safziy.service.context.SpringContext;
 import com.safziy.service.log.LogUtil;
 
 public class InitListener implements ServletContextListener {
+	
+	public static String UPLOAD_FILE_PATH = "/data/safziy-service/upload_file/";
 
 	public void contextDestroyed(ServletContextEvent arg0) {
 
@@ -20,6 +24,10 @@ public class InitListener implements ServletContextListener {
 		startWatch.start();
 		
 		SpringContext.getInstance().init();
+		File file = new File(UPLOAD_FILE_PATH);
+		if(!file.exists()){
+			file.mkdirs();
+		}
 		
 		startWatch.stop();
 		LogUtil.info("com.safziy.service.listener.InitListener  contextInitialized time  " + startWatch.getTime());

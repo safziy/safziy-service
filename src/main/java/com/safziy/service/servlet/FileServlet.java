@@ -14,7 +14,11 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.json.JSONObject;
 
+import com.safziy.service.listener.InitListener;
 import com.safziy.service.log.LogUtil;
+import com.safziy.service.utils.DateUtils;
+import com.safziy.service.utils.JSONUtils;
+import com.safziy.service.utils.XLSReaderUtils;
 
 public class FileServlet extends AbstractServlet{
 
@@ -38,14 +42,8 @@ public class FileServlet extends AbstractServlet{
 							String filePath = getUploadFilePath(req, item);
 							File uploadFile = new File(filePath);
 							item.write(uploadFile);
-							// if (parseFileResult.first) {
-							// jsonObj.put("res", 1);
-							// jsonObj.put("content", parseFileResult.second);
-							// jsonObj.put("path", filePath);
-							// } else {
-							// jsonObj.put("content", parseFileResult.second);
-							// jsonObj.put("msg", parseFileResult.third);
-							// }
+							List<List<Object>> data = XLSReaderUtils.getData(uploadFile);
+							jsonObj.put("content",JSONUtils.list2String(data));
 						} else {
 							jsonObj.put("msg", "上传文件不是excel文件");
 						}
@@ -58,6 +56,7 @@ public class FileServlet extends AbstractServlet{
 			LogUtil.error(e);
 			jsonObj.put("msg", "上传文件失败");
 		}
+		success(resp, jsonObj.toString());
 	}
 	
 	/**
@@ -68,24 +67,21 @@ public class FileServlet extends AbstractServlet{
 	 * @return
 	 */
 	private String getUploadFilePath(HttpServletRequest request, FileItem item) {
-//		String uploadPath = InitListner.UPLOAD_FILE_PATH;
-//		FileUtil.makeDirs(uploadPath);
-//		String totalName = item.getName();
-//		String name = "temp";
-//		if (totalName != "") {
-//			name = totalName.substring(totalName.lastIndexOf("\\") + 1);
-//			String dateStr = DateUtils.formatDate(System.currentTimeMillis(), DateUtils.SEQUENCE_UPDATE_TIME_FORMAT);
-//			if (name.contains(".")) {
-//				name = name.substring(0, name.lastIndexOf(".")) + "_" + dateStr
-//						+ name.substring(name.lastIndexOf("."), name.length());
-//			} else {
-//				name += "_" + dateStr;
-//			}
-//		} else {
-//			name = "temp";
-//		}
-//		return uploadPath + "/" + name;
-		return null;
+		String totalName = item.getName();
+		String name = "temp";
+		if (totalName != "") {
+			name = totalName.substring(totalName.lastIndexOf("\\") + 1);
+			String dateStr = DateUtils.formatDate(System.currentTimeMillis(), DateUtils.SEQUENCE_UPDATE_TIME_FORMAT);
+			if (name.contains(".")) {
+				name = name.substring(0, name.lastIndexOf(".")) + "_" + dateStr
+						+ name.substring(name.lastIndexOf("."), name.length());
+			} else {
+				name += "_" + dateStr;
+			}
+		} else {
+			name = "temp";
+		}
+		return InitListener.UPLOAD_FILE_PATH + "/" + name;
 	}
 
 }

@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang.time.StopWatch;
 
 import com.safziy.service.annotation.HttpMethod;
+import com.safziy.service.log.LogUtil;
 
 public class AbstractServlet extends HttpServlet {
 
@@ -32,29 +33,27 @@ public class AbstractServlet extends HttpServlet {
 
 	private void executeMethod(HttpServletRequest req, HttpServletResponse resp, String getOrPost)
 			throws ServletException, IOException {
+		StopWatch servletWatch = new StopWatch();
+		servletWatch.start();
 		String methodName = getString(req, "method", "execute");
 		try {
-			StopWatch servletWatch = new StopWatch();
-			servletWatch.start();
 			Method method = getClass().getMethod(methodName,
 					new Class<?>[] { HttpServletRequest.class, HttpServletResponse.class });
 			HttpMethod httpMethod = method.getAnnotation(HttpMethod.class);
 			if (httpMethod == null) {
 				method.invoke(this, new Object[] { req, resp });
-			} else
-			if (getOrPost.equals(GET) && httpMethod.get()) {
+			} else if (getOrPost.equals(GET) && httpMethod.get()) {
 				method.invoke(this, new Object[] { req, resp });
 			} else if (getOrPost.equals(POST) && httpMethod.post()) {
 				method.invoke(this, new Object[] { req, resp });
 			} else {
 				requestNotFound(resp);
 			}
-			servletWatch.stop();
-			System.out.println(getClass().getSimpleName() + " func= " + methodName + "  execute time "
-					+ servletWatch.getTime());
 		} catch (Exception e) {
 			requestNotFound(resp);
 		}
+		servletWatch.stop();
+		LogUtil.info(getClass().getSimpleName() + " func= " + methodName + "  execute time " + servletWatch.getTime());
 	}
 
 	protected void execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
