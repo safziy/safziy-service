@@ -1,0 +1,20 @@
+package com.lyb.client.processor.impl;
+
+import com.lyb.client.model.Player;
+import com.lyb.client.processor.*;
+import com.lyb.client.message.protocol.*;
+
+/**
+ * ${desc}
+ * 
+ * @author codeGenerator
+ * 
+ */
+#set( $this = "className")
+public class Processor_${main}_$sub extends IMessageProcessor<Message_${main}_$sub> {
+
+	@Override
+	public void execute(Player player, Message_${main}_$sub message) throws Exception {
+		
+	}
+}
