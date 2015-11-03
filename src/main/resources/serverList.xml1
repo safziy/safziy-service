@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<ret>1</ret>
+	<data>
+		<area01>
+			<id>01</id>
+			<name>默认区</name>
+			<canvasUrl></canvasUrl>
+			<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+			<gameSwfUrl></gameSwfUrl>
+			<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+			<userCoinUrl></userCoinUrl>
+			<deliverUrl></deliverUrl>
+			<isOpen>1</isOpen>
+			<servers>
+				<server90001>
+					<id>90001</id>
+					<name>1区白名单</name>
+					<canvasUrl>119.29.119.47</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl>92C40A77-99A3-41AC-B405-1675CC508015#6BD05D93-2DF3-4C19-8F35-8252B62A700A#7DE757B2-6088-4CA4-9734-E0DB6462529B#3417EBD1AEEC#A28FB41D-FB96-4846-A553-6FA0D4F2287A#CBB696B5-FB5E-4CCB-BAD6-E150ACE618D0#D738EDAF-6EB8-4CF9-B2F4-22C472768B42#CE21FB3B-D834-4C43-8AC1-E64E1959ED7E#CB2F3A3E-D3BC-437F-8880-ADEA084ED656</gameSwfUrl>
+					<gameBlock></gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>free</status>
+					<isOpen>1</isOpen>
+				</server90001>
+				<server40001>
+					<id>40001</id>
+					<name>1服-江左梅郎</name>
+					<canvasUrl>119.29.27.206</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40001>
+				<server40011>
+					<id>40011</id>
+					<name>2服-琅琊榜首</name>
+					<canvasUrl>119.29.135.127</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40011>
+				<server40021>
+					<id>40021</id>
+					<name>3服-七珠亲王</name>
+					<canvasUrl>119.29.32.180</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40021>
+				<server40031>
+					<id>40031</id>
+					<name>4服-东宫太子</name>
+					<canvasUrl>119.29.12.118</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40031>
+				<server40041>
+					<id>40041</id>
+					<name>5服-妙音坊</name>
+					<canvasUrl>119.29.8.63</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40041>
+				<server40051>
+					<id>40051</id>
+					<name>6服-红袖招</name>
+					<canvasUrl>119.29.7.27</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40051>
+				<server40061>
+					<id>40061</id>
+					<name>7服-杨柳心</name>
+					<canvasUrl>119.29.4.104</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40061>
+				<server40071>
+					<id>40071</id>
+					<name>8服-长林军</name>
+					<canvasUrl>119.29.18.208</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40071>
+				<server40081>
+					<id>40081</id>
+					<name>9服-赤焰军</name>
+					<canvasUrl>119.29.27.224</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40081>
+				<server40091>
+					<id>40091</id>
+					<name>国庆-胡歌</name>
+					<canvasUrl>182.254.225.148</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40091>
+				<server40101>
+					<id>40101</id>
+					<name>11服-御林军</name>
+					<canvasUrl>182.254.227.57</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40101>
+				<server40111>
+					<id>40111</id>
+					<name>12服-禁卫军</name>
+					<canvasUrl>119.29.55.137</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>free</status>
+					<isOpen>1</isOpen>
+				</server40111>
+				<server40121>
+					<id>40121</id>
+					<name>13服-大理寺</name>
+					<canvasUrl>182.254.228.67</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>free</status>
+					<isOpen>1</isOpen>
+				</server40121>
+				<server40131>
+					<id>40131</id>
+					<name>14服-悬镜司</name>
+					<canvasUrl>119.29.33.68</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>free</status>
+					<isOpen>1</isOpen>
+				</server40131>
+				<server40141>
+					<id>40141</id>
+					<name>15服-御史台</name>
+					<canvasUrl>119.29.33.243</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40141>
+				<server40151>
+					<id>40151</id>
+					<name>16服-芷萝宫</name>
+					<canvasUrl>119.29.33.188</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40151>
+				<server40161>
+					<id>40161</id>
+					<name>17服-正阳宫</name>
+					<canvasUrl>119.29.35.159</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40161>
+				<server40171>
+					<id>40171</id>
+					<name>18服-昭仁宫</name>
+					<canvasUrl>119.29.101.86</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock>
+						琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~
+					</gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>crowd</status>
+					<isOpen>1</isOpen>
+				</server40171>
+				<server40181>
+					<id>40181</id>
+					<name>19服-养居殿</name>
+					<canvasUrl>119.29.100.137</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock></gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags></tags>
+					<status>free</status>
+					<isOpen>1</isOpen>
+				</server40181>
+				<server40191>
+					<id>40191</id>
+					<name>20服-引萧阁</name>
+					<canvasUrl>119.29.12.140</canvasUrl>
+					<httpsCanvasUrl></httpsCanvasUrl>
+					<gameSwfUrl></gameSwfUrl>
+					<gameBlock></gameBlock>
+					<userCoinUrl></userCoinUrl>
+					<deliverUrl></deliverUrl>
+					<mergeToServerId></mergeToServerId>
+					<tags>new</tags>
+					<status>free</status>
+					<isOpen>1</isOpen>
+				</server40191>
+			</servers>
+			<server90001>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server90001>
+			<server40001>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40001>
+			<server40011>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40011>
+			<server40021>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40021>
+			<server40031>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40031>
+			<server40041>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40041>
+			<server40051>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40051>
+			<server40061>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40061>
+			<server40071>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40071>
+			<server40081>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40081>
+			<server40091>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40091>
+			<server40101>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40101>
+			<server40111>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40111>
+			<server40121>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40121>
+			<server40131>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40131>
+			<server40141>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40141>
+			<server40151>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40151>
+			<server40161>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40161>
+			<server40171>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40171>
+			<server40181>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40181>
+			<server40191>
+				<areaId>01</areaId>
+				<canvasUrl />
+				<httpsCanvasUrl>apple,1.4.16</httpsCanvasUrl>
+				<gameSwfUrl />
+				<gameBlock>琅琊榜从8：00进入停服状态，预计9点半开启，届时有维护补偿到您口袋，请注意查收~</gameBlock>
+				<userCoinUrl />
+				<deliverUrl />
+				<serverName />
+				<areaName />
+			</server40191>
+		</area01>
+	</data>
+	
