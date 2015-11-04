@@ -142,7 +142,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>safziy-commom</groupId>
+			<groupId>com.safziy</groupId>
 			<artifactId>safziy-commom</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
