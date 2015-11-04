@@ -1,19 +1,17 @@
 package com.safziy.service.utils;
 
-import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.json.JSONObject;
 
 public class HttpRequester {
 
 	private HttpClient httpClient;
 
-//	private static final int DEFAULT_CONNECT_TIMEOUT = 10000;
+	// private static final int DEFAULT_CONNECT_TIMEOUT = 10000;
 
-//	private static final int DEFAULT_READ_TIMEOUT = 50000;
+	// private static final int DEFAULT_READ_TIMEOUT = 50000;
 
 	public static final int CODE_200 = 200;
 
@@ -29,34 +27,40 @@ public class HttpRequester {
 	}
 
 	public void start() throws Exception {
-//		SSLContext ctx = SSLContext.getInstance("TLS");
-//		X509TrustManager tm = new X509TrustManager() {
-//			public java.security.cert.X509Certificate[] getAcceptedIssuers() {
-//				return null;
-//			}
-//
-//			@Override
-//			public void checkClientTrusted(java.security.cert.X509Certificate[] chain, String authType)
-//					throws java.security.cert.CertificateException {
-//			}
-//
-//			@Override
-//			public void checkServerTrusted(java.security.cert.X509Certificate[] chain, String authType)
-//					throws java.security.cert.CertificateException {
-//			}
-//		};
-//		ctx.init(null, new TrustManager[] { tm }, null);
-//		SchemeRegistry schemeRegistry = new SchemeRegistry();
-//		SSLSocketFactory ssf = new SSLSocketFactory(ctx, SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
-//		schemeRegistry.register(new Scheme("https", 443, ssf));// 支持ssl协议
-//		schemeRegistry.register(new Scheme("http", 80, PlainSocketFactory.getSocketFactory()));
-//		ThreadSafeClientConnManager connManager = new ThreadSafeClientConnManager(schemeRegistry);
-//		connManager.setMaxTotal(200);
-//		connManager.setDefaultMaxPerRoute(20);
-//		HttpParams httpParams = new BasicHttpParams();
-//		HttpConnectionParams.setConnectionTimeout(httpParams, DEFAULT_CONNECT_TIMEOUT);
-//		HttpConnectionParams.setSoTimeout(httpParams, DEFAULT_READ_TIMEOUT);
-//		httpClient = new DefaultHttpClient(connManager, httpParams);
+		// SSLContext ctx = SSLContext.getInstance("TLS");
+		// X509TrustManager tm = new X509TrustManager() {
+		// public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+		// return null;
+		// }
+		//
+		// @Override
+		// public void checkClientTrusted(java.security.cert.X509Certificate[]
+		// chain, String authType)
+		// throws java.security.cert.CertificateException {
+		// }
+		//
+		// @Override
+		// public void checkServerTrusted(java.security.cert.X509Certificate[]
+		// chain, String authType)
+		// throws java.security.cert.CertificateException {
+		// }
+		// };
+		// ctx.init(null, new TrustManager[] { tm }, null);
+		// SchemeRegistry schemeRegistry = new SchemeRegistry();
+		// SSLSocketFactory ssf = new SSLSocketFactory(ctx,
+		// SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+		// schemeRegistry.register(new Scheme("https", 443, ssf));// 支持ssl协议
+		// schemeRegistry.register(new Scheme("http", 80,
+		// PlainSocketFactory.getSocketFactory()));
+		// ThreadSafeClientConnManager connManager = new
+		// ThreadSafeClientConnManager(schemeRegistry);
+		// connManager.setMaxTotal(200);
+		// connManager.setDefaultMaxPerRoute(20);
+		// HttpParams httpParams = new BasicHttpParams();
+		// HttpConnectionParams.setConnectionTimeout(httpParams,
+		// DEFAULT_CONNECT_TIMEOUT);
+		// HttpConnectionParams.setSoTimeout(httpParams, DEFAULT_READ_TIMEOUT);
+		// httpClient = new DefaultHttpClient(connManager, httpParams);
 
 		httpClient = HttpClients.createDefault();
 	}
@@ -85,17 +89,4 @@ public class HttpRequester {
 		return HttpUtils.doPost(url, param, httpClient);
 	}
 
-	public static void main(String[] args) throws Exception {
-		HttpRequester.getInstance().start();
-		String url = "http://partition.cn.happyelements.com/queryAllServerConfig?app_id=7900109606";
-		Map<String, Object> paramMap = new HashMap<String, Object>();
-		String repstr = HttpRequester.getInstance().doPost(url, paramMap);
-		
-		Map<String, String> map = JSONUtils.string2Map(repstr);
-		
-		JSONObject json = new JSONObject(repstr);
-		json.get("data");
-		
-		System.out.println(repstr);
-	}
 }
