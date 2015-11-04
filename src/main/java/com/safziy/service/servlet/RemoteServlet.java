@@ -14,7 +14,7 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.json.JSONObject;
 
-import com.safziy.service.log.LogUtil;
+import com.safziy.commom.service.log.LogUtil;
 import com.safziy.service.remote.JavaClassExecuter;
 
 public class RemoteServlet extends AbstractServlet {

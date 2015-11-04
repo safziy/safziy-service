@@ -7,8 +7,8 @@ import javax.servlet.ServletContextListener;
 
 import org.apache.commons.lang.time.StopWatch;
 
+import com.safziy.commom.service.log.LogUtil;
 import com.safziy.service.context.SpringContext;
-import com.safziy.service.log.LogUtil;
 
 public class InitListener implements ServletContextListener {
 	

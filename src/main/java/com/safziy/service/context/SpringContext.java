@@ -3,8 +3,8 @@ package com.safziy.service.context;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.safziy.service.log.LogUtil;
-import com.safziy.service.threadpool.ControlCenter;
+import com.safziy.commom.service.log.LogUtil;
+import com.safziy.comom.service.threadpool.ControlCenter;
 
 public class SpringContext {
 	private static class LazyHolder {

@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.safziy.commom.utils.SignUtils;
 import com.safziy.service.constant.WeixinConstants;
-import com.safziy.service.utils.SignUtils;
 
 public class WeixinServlet extends HttpServlet {
 
