@@ -1,6 +1,7 @@
 package com.safziy.service.test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -11,5 +12,7 @@ public class ArrayTest {
 		
 		List<String> list1 = new LinkedList<String>();
 		System.out.println(list1.getClass().isArray());
+		
+		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 	}
 }
